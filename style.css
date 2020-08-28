@@ -1,0 +1,60 @@
+body{
+    background-color: #9CAFB7;
+    color: #222;
+    font-family: Helvetica, Arial, sans-serif;   
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background: #DAE3E8 ;
+    margin: 20px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 65%;
+    background: #F2F5F6;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.rightcolumn {
+    float: right;
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background: #F2F5F6;
+}
+
+.posttitle {
+    font-size: 22px;
+}
+
+.dates {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.card {
+    background-color: #DAE3E8;
+    margin: 5px;
+    padding: 15px;
+}
+
+/* clear out space after columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+   width: 20%;
+   height: auto;
+   float: right;
+   border: 5px solid #DAE3E8;
+   margin: 20px 20px 10px;
+}
