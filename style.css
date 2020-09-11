@@ -4,87 +4,75 @@ body{
     font-family: Helvetica, Arial, sans-serif;   
 }
 
-.heading {
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.headimage{
+    position: relative;
     text-align: center;
-    padding: 10px;
-    font-size: 30px;
-    background: #DAE3E8 ;
-    margin: 20px;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+    
 }
 
-.leftcolumn {
-    float: left;
-    width: 65%;
-    background: #F2F5F6;
-    padding: 10px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.rightcolumn {
-    float: right;
-    width: 25%;
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
-    background: #F2F5F6;
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.posttitle {
-    font-size: 22px;
+nav{
+    background-color: #141414;
 }
 
-.dates {
-    font-size: 18px;
-    margin-top: 5px;
+.navbar-nav{
+    margin-left: auto;
 }
 
-.card {
+.card{
+    color: #9CAFB7;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    padding-bottom: 10px;
+}
+
+
+
+.col-8{
+    margin-top: 20px;
+}
+
+.col-2{
+    margin-top: 20px;
+    align-content: right;
+}
+
+.postcard{
     background-color: #DAE3E8;
-    margin: 5px;
-    padding: 15px;
+    opacity: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.nav {
+.contactcard{
+    text-align: right;
+    background-color: #DAE3E8;
     height: 50px;
-    flex: 100%;
-    display: flex;
 }
 
-.nav ul {
-    padding: 0;
-    list-style-type: none;
-    flex: 2;
-    display: flex;
-  }
-  
-.nav li {
-    display: inline;
-    text-align: center;
-    flex: 1;
-  }
-  
-.nav a, nav span {
-    display: inline-block;
-    font-size: 2rem;
-    height: 3rem;
-    line-height: 1.7;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-  
-  }
-
-/* clear out space after columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.img {
-   width: 20%;
-   height: auto;
-   float: right;
-   border: 5px solid #DAE3E8;
-   margin: 20px 20px 10px;
-}
