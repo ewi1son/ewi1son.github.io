@@ -4,7 +4,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;   
 }
 
-img{
+.imageTop{
     width: 100%;
     height: 200px;
 }
@@ -34,7 +34,29 @@ nav{
 }
 
 .card{
-    color: #9CAFB7;
+    opacity: 80%;
+}
+.card-body{
+    color: #222;
+    background-color: #DAE3E8;
+    font-size: 20px;
+}
+
+
+/* removes standard blue link*/
+a.card,
+a.card:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+h5{
+    font-size: 20px;
+    text-align: left;
+}
+
+h6{
+    font-size: 15px;
 }
 
 h1{
@@ -52,7 +74,13 @@ h3{
     padding-bottom: 10px;
 }
 
+h4{
+    font-size: 20px;
+}
 
+.col-sm-2{
+    margin: 20px;
+}
 
 .col-8{
     margin-top: 20px;
@@ -61,6 +89,21 @@ h3{
 .col-2{
     margin-top: 20px;
     align-content: right;
+}
+
+.col-3{
+    margin-top: 20px;
+    color: #222;
+    text-decoration: none;
+}
+a.col-3,
+a.col-3:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+.firstProject{
+    padding-left: 30px;
 }
 
 .postcard{
