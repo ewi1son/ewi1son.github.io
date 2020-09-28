@@ -13,7 +13,7 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 3.5vmax;
     padding-bottom: 20px;
     
 }
@@ -130,3 +130,15 @@ a.col-3:hover {
     height: 50px;
 }
 
+.table{
+    font-size: 1.2vmax;
+    background-color: #9CAFB7;
+}
+
+/* not working */
+a.th,
+a.th:hover {
+  color: #3f3f3f;
+  text-decoration: none;
+  padding: 5px;
+}
