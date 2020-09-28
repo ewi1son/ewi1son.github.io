@@ -48,6 +48,17 @@ a.card,
 a.card:hover {
   color: #222;
   text-decoration: none;
+  padding: 5px;
+}
+
+a
+ {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-color: #3f3f3f;
 }
 
 h5{
