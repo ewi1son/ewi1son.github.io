@@ -9,13 +9,13 @@ body{
     height: 200px;
 }
 
+
 .headimage{
     position: relative;
     text-align: center;
     color: white;
-    font-size: 3.5vmax;
+    font-size: 400%;
     padding-bottom: 20px;
-    
 }
 
 .centered{
@@ -51,8 +51,7 @@ a.card:hover {
   padding: 5px;
 }
 
-a
- {
+a{
     color: #222;
     text-decoration: none;
 }
@@ -67,7 +66,11 @@ h5{
 }
 
 h6{
-    font-size: 15px;
+    font-size: 100%;
+    font-weight: bold;
+} 
+p{
+    font-size: 90%;
 }
 
 h1{
@@ -86,7 +89,7 @@ h3{
 }
 
 h4{
-    font-size: 20px;
+    font-size: 100%;
 }
 
 .col-sm-2{
