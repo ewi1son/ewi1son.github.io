@@ -1,3 +1,7 @@
+html,body{
+    height: 100vh;
+}
+
 body{
     background-color: #9CAFB7;
     color: #222;
@@ -14,7 +18,7 @@ body{
     position: relative;
     text-align: center;
     color: white;
-    font-size: 400%;
+    font-size: 4vmax;
     padding-bottom: 20px;
 }
 
