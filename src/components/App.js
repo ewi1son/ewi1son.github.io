@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Blogpost from "./Blogpost";
+
 // import Image from "./Image";
 
 //this can be named anything
